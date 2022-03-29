@@ -1,0 +1,30 @@
+<!DOCYPE html>
+<html>
+
+    <head>
+          <!--인코딩 영역입니다.--> 
+        <meta charset="UTF-8">
+        <title> Admin Login</title>
+           <!-- css 링크 영역입니다.--> 
+        <link href="css/login.css" rel="styLesheet">
+    </head>
+    <section>
+        <body>
+        <!--로고 파일 출력 단자--> 
+        <img src ="image/Logo.jpg"><br><br><br>
+        <div "Logo">Admin Section</div>
+         <!--로그인 기능이 구현된 세션입니다, POST 전송방식을 사용하며 login.php에서 인증 작업을 거쳐 관리자 사이트로 이동 합니다. --> 
+        <div id="Login">
+                    <form method="POST" action="login.php">
+                    <input type="text" name = "userID" placeholder="ID">
+                    <input type="password" name = "userPS" placeholder="Password">
+                    <button type="submit"> Login </button>
+            </form>
+        </body>
+        <!--로그인 버튼 하단 CopyRight 출력 단, 여기서는 프로젝트 제목 겸으로 작성-->
+            <article id="bottom">
+                YeungNam University major of Information and Communication<br> DataBase Project
+            </article>
+        </div>
+    </section>
+</html>
