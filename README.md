@@ -1,6 +1,7 @@
 # Covid19_Control_Project
 ## 효율적인 코로나 19 관리를 위한 웹 프로젝트
 해당 프로젝트는 영남대학교 정보통신공학과 학기 프로젝트의 일환으로 개발 되었습니다
+Developed by Lua-developer(JY. me), Jun(JY)
 # develop environment
 ## HardWare environment
 OS : Windows 10  
